@@ -2,6 +2,9 @@
 
 This package provides an adaptive navigation bar in Flutter that changes its layout based on the device type. The navigation bar appears at the bottom for mobile devices, on the side for tablets, and at the top for web applications. The package also integrates GoRouter for navigation management.
 
+![responsive](https://github.com/user-attachments/assets/e56f27f1-f47a-48ac-9b85-e55fdf806151)
+
+
 
 ## Features
 
