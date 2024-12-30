@@ -1,7 +1,7 @@
 name: responsive_nav_bar
 description: "BottomNavigationBar for mobile, NavigationRail for wide screens and TabBar for widerrrr screens"
 version: 1.0.0
-homepage:
+repository: https://github.com/Flexxxlab/responsive_nav_bar
 platforms:
   android:
   ios:
