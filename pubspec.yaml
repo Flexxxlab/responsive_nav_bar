@@ -1,0 +1,27 @@
+name: responsive_nav_bar
+description: "BottomNavigationBar for mobile, NavigationRail for wide screens and TabBar for widerrrr screens"
+version: 1.0.0
+homepage:
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^14.6.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
