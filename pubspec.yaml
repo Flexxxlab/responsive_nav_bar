@@ -1,6 +1,6 @@
 name: responsive_nav_barx
 description: "BottomNavigationBar for mobile, NavigationRail for wide screens and TabBar for widerrrr screens"
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/Flexxxlab/responsive_nav_bar
 platforms:
   android:
@@ -11,17 +11,18 @@ platforms:
   windows:
 
 environment:
-  sdk: ^3.6.0
-  flutter: ">=1.17.0"
+  sdk: ^3.10.3
+  flutter: ">=2.51.1"
 
 dependencies:
   flutter:
     sdk: flutter
-  go_router: ^14.6.2
+  go_router: ^17.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
+  generate: true
