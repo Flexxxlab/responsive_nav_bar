@@ -26,6 +26,11 @@ flutter run
 - Flutter
 - GoRouter
 
+## Contact
+
+For support, questions, or contributions, please reach out at:
+- Email: helpdesk@flexxxlab.com
+
 ## License
 
 This project is licensed under the MIT License.
