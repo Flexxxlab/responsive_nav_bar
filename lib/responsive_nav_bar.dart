@@ -54,7 +54,7 @@ class _ResponsiveNavigationBarState extends State<ResponsiveNavigationBar>
     super.initState();
     _tabController = TabController(
         initialIndex: widget.navigationShell.currentIndex,
-        length: 3,
+        length: widget.webBarButtons.length,
         vsync: this);
   }
 
