@@ -27,3 +27,11 @@ This repo contains the `responsive_nav_barx` Flutter package.
 - Run `flutter test` and `flutter analyze`.
 - Check responsive behavior for narrow, medium, and wide layouts when changing layout logic.
 
+## Required Review Gate
+
+Before finishing any code change, apply `../docs/REVIEW_CHECKLIST.md` using its
+token-bounded protocol. At minimum, check `Reviewer posture`, `Cross-repo`,
+`Workspace style and architecture`, and the `responsive_nav_bar` section. For
+layout changes, report the narrow/medium/wide precedent or smoke check. Final
+responses should report only: checklist sections used, validation run,
+responsive checks, public API impact, and open risks.
