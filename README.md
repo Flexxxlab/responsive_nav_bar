@@ -11,6 +11,24 @@ This package provides an adaptive navigation bar in Flutter that changes its lay
 - Adaptive navigation bar for different device types
 - Integration with GoRouter for navigation
 - Responsive design
+- Optional notification dot on individual navigation items
+
+## Usage
+
+```dart
+ResponsiveNavigationBar(
+  navigationShell: navigationShell,
+  barButtons: [
+    BarItem(icon: const Icon(Icons.home), label: 'Home'),
+    BarItem(icon: const Icon(Icons.person), label: 'Profile'),
+    BarItem(
+      icon: const Icon(Icons.settings),
+      label: 'Settings',
+      showNotificationDot: hasUnreadSettingsActivity,
+    ),
+  ],
+)
+```
 
 ## Getting Started
 

@@ -52,7 +52,11 @@ class MyApp extends StatelessWidget {
             barButtons: [
               BarItem(icon: const Icon(Icons.home), label: 'Home'),
               BarItem(icon: const Icon(Icons.person), label: 'Profile'),
-              BarItem(icon: const Icon(Icons.settings), label: 'Settings')
+              BarItem(
+                icon: const Icon(Icons.settings),
+                label: 'Settings',
+                showNotificationDot: hasUnreadSettingsActivity,
+              )
             ]),
       ),
     ];
